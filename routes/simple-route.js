@@ -9,11 +9,11 @@ router.use(function timeLog(req, res, next) {
 
 
 router.get('/',function(req,res){
-  res.send('Birds home page')
+  res.send('Simple route home page')
 });
 
 router.get('/about',function(req,res){
-  res.send('About birds')
+  res.send('Simple route template')
 });
 
 

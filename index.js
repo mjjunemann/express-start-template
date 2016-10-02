@@ -1,6 +1,6 @@
 'use strict'
 
-const app = require('./app')
+const app = require('./server')
 
 app.listen(3000, () => {
   console.log('Example app listening on port 3000!')
